@@ -1,0 +1,40 @@
+.homeSlide h1{
+    font-size: 45px;
+}
+.home{
+    margin-top: 50px;
+}
+
+.homeSlide p {
+    margin: 20px 0;
+}
+
+.homeSlide ul {
+    position: absolute;
+    bottom: 20px;
+}
+
+/* .homeSlide ul li {
+    border: 2px solid #b8b7b7;
+    border-radius: 4px;
+    padding: 10px;
+} */
+.homeSlide ul li button {
+    background: transparent !important;
+    color: transparent !important;
+  }
+  .homeSlide ul li button::before {
+    font-size: 15px !important;
+    color: #e9140d;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    margin: auto;
+  }
+
+/* 
+@media (max-width:768px){
+    .homeSlide{
+        width: 100%;
+    }
+} */
